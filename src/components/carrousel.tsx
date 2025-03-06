@@ -54,7 +54,7 @@ export default function Carrousel() {
             {selectedPhoto && (
                 <div className="fixed inset-0 flex items-center justify-center bg-black/85 z-10" onClick={handleCloseModal}>
                     <div className="relative p-4 rounded h-full" onClick={(e) => e.stopPropagation()}>
-                        <button className="absolute top-0 right-0 m-2 text-black p-7 text-3xl" onClick={handleCloseModal}>&times;</button>
+                        <button className="absolute top-0 right-0 m-2 cursor-pointer text-black p-7 text-3xl" onClick={handleCloseModal}>&times;</button>
                         <img src={selectedPhoto} alt="Selected" className="max-w-full max-h-full" />
                     </div>
                 </div>

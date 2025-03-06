@@ -27,11 +27,19 @@ export default function Home() {
             />
           </div>
         </section>
-        <section id="photos" className="bg-linear-to-b from-[#c8e8b7] to-[#c8e8b7]/10 py-8">
+        <section id="photos" className="bg-linear-to-b from-[#c8e8b7] to-[#c8e8b7]/20 py-8">
           <h1 className="text-center text-red-600 text-3xl font-bold p-4">
             Fotos
           </h1>
           <Carrousel />
+        </section>
+        <section id="content" className="flex flex-col items-center py-10 gap-4">
+          <h1 className="text-center text-red-600 text-3xl font-bold p-4">
+            Conteúdo do Workshop
+          </h1>
+          <div className="flex items-center w-full justify-center">
+            <iframe src="https://www.youtube.com/embed/pN93JhzKvNI" allowFullScreen className="w-3/4 h-[600px]"/>
+          </div>
         </section>
       </main>
       <Footer />

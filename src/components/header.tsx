@@ -13,8 +13,8 @@ export default function Header() {
                 <a href="#photos" className="hover:text-[#FF0000]">
                     <li>Fotos</li>
                 </a>
-                <a href="#material" className="hover:text-[#FF0000]">
-                    <li>Material</li>
+                <a href="#content" className="hover:text-[#FF0000]">
+                    <li>Conteúdo</li>
                 </a>
             </ul>
         </div>
